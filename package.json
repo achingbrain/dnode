@@ -22,7 +22,7 @@
     "argg" : "~0.0.1",
     "istanbul" : "~0.3.0",
     "pre-commit" : "^0.0",
-    "tape" : "~2.3.2"
+    "tape" : "~3.4.0"
   },
   "scripts" : {
     "test": "istanbul cover node_modules/argg test/*.js"
