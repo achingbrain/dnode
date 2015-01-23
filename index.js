@@ -30,9 +30,9 @@ function D (cons, opts) {
         
         opts.proto = {};
         opts.proto.wrap = function (cb, id) {
-            var proto = this;
+            var callbacks = this;
             return weak(cb, function () {
-                proto.cull(id);
+                callbacks.remove(id);
             });
         };
         opts.proto.unwrap = function (ref, id) {
