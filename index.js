@@ -40,6 +40,12 @@ function D (cons, opts) {
             return cb || function () {};
         };
     }
+
+    if (opts.timeout !== undefined) {
+        opts.proto = opts.proto || {};
+        opts.proto.timeout = opts.timeout;
+    }
+
     return dnode.call(self, cons, opts);
 }
 
