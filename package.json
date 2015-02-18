@@ -1,6 +1,6 @@
 {
   "name" : "boss-dnode",
-  "version" : "1.2.2",
+  "version" : "1.2.3",
   "description" : "freestyle rpc",
   "main" : "./index.js",
   "keywords" : [
