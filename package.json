@@ -16,7 +16,7 @@
     "jsonify" : "~0.0.0"
   },
   "optionalDependencies": {
-    "weak": "achingbrain/node-weak"
+    "weak": "^0.4"
   },
   "devDependencies" : {
     "argg" : "~0.0.1",
